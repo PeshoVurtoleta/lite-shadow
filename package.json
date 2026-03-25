@@ -1,0 +1,45 @@
+{
+  "name": "@zakkster/lite-shadow",
+  "version": "1.0.0",
+  "description": "Zero-GC 2D visibility polygon. Raycasting with AABB rejection, angle deduplication, fround() stability.",
+  "author": "Zahary Shinikchiev <shinikchiev@yahoo.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "VisibilityCaster.js",
+  "types": "VisibilityCaster.d.ts",
+  "exports": {
+    ".": {
+      "import": "./VisibilityCaster.js",
+      "types": "./VisibilityCaster.d.ts"
+    }
+  },
+  "files": [
+    "VisibilityCaster.js",
+    "VisibilityCaster.d.ts",
+    "llms.txt"
+  ],
+  "keywords": [
+    "visibility",
+    "raycasting",
+    "shadow",
+    "line-of-sight",
+    "2d",
+    "zero-gc"
+  ],
+  "sideEffects": false,
+  "homepage": "https://github.com/PeshoVurtoleta/lite-shadow#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeshoVurtoleta/lite-shadow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PeshoVurtoleta/lite-shadow/issues",
+    "email": "shinikchiev@yahoo.com"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

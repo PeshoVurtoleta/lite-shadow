@@ -1,0 +1,17 @@
+# @zakkster/lite-shadow
+> Zero-GC 2D visibility polygon. Raycasting with AABB rejection, angle deduplication, fround() stability.
+
+## Install
+npm i @zakkster/lite-shadow
+
+## Import
+import { VisibilityCaster } from '@zakkster/lite-shadow';
+
+## Key Facts
+- Zero GC: All state in TypedArrays, no per-frame allocation
+- Size: < 1.5 KB minified
+- Dependencies: none
+- ESM only (type: module)
+
+## Export: VisibilityCaster (class)
+See source file VisibilityCaster.js for full JSDoc API documentation.
